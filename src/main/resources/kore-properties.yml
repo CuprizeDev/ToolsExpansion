@@ -1,0 +1,4 @@
+name: "ExampleExpansion" #The name of your expansion. MUST BE UNIQUE AMONG OTHER EXPANSIONS.
+description: 'An example expansion' #The description of your expansion
+main: "com.golfing8.expansion.Expansion" #This is the class that extends FactionsKoreExpansion
+load-priority: 50 #The load priority of the expansion. Higher number = Higher load priority.
