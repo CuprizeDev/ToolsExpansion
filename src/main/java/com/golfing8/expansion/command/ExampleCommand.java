@@ -25,7 +25,7 @@ public class ExampleCommand extends FactionsKoreCommand<ExampleFeature> {
 
         if(args.length == 0 || !hasAdminPermission(sender, true))return;
 
-        //These parse commands throw an expansion so you wont need to return for bad arguments, it'll handle it for you.
+        //These parse commands throw an exception so you wont need to return for bad arguments, it'll handle it for you.
         int integer = parseInt(args[0]);
 
         sender.sendMessage(FactionsKore.c("&cYou input: " + integer + "!"));
