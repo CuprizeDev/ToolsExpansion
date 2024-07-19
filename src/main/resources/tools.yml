@@ -1,0 +1,147 @@
+#This is your main configuration of the example feature.
+enabled: true
+feature:
+  invalid-args: '&8[&4&l!&8] &c/tools give <player> <type>'
+  invalid-type: '&8[&4&l!&8] &7That is a invalid tool!'
+  offline: '&8[&4&l!&8] &7That player is offline!'
+  give-trench: '&8[&4&l!&8] &7You have given &4%player% a &4%radius% trench pickaxe!'
+  given-trench: '&8[&4&l!&8] &7You have been given a &4%radius% trench pickaxe!'
+  incorrect-block: '&8[&4&l!&8] &7You must use the tray pickaxe on netherrack!'
+  not-high-enough: '&8[&4&l!&8] &7You must use the tray pickaxe above y200!'
+  no-permission: '&8[&4&l!&8] &7You do not have permission to run this command!'
+  unbreakable:
+    - MOB_SPAWNER
+    - BEDROCK
+    - OBSIDIAN
+    - WATER
+  tools:
+    trench3:
+      type: 'trench'
+      name: '&4&lTrench Pickaxe'
+      material: 'NETHERITE_PICKAXE'
+      lore:
+        - ""
+        - "&7This &4Trench Pickaxe &7will break blocks"
+        - "&7in a radius and help you build your base!"
+        - ""
+        - "&7Radius: &4%radius%"
+        - ""
+        - "&4&lBREAK &4a block to use this tool!"
+      radius: 3
+    trench5:
+      type: 'trench'
+      name: '&4&lTrench Pickaxe'
+      material: 'NETHERITE_PICKAXE'
+      lore:
+        - ""
+        - "&7This &4Trench Pickaxe &7will break blocks"
+        - "&7in a radius and help you build your base!"
+        - ""
+        - "&7Radius: &4%radius%"
+        - ""
+        - "&4&lBREAK &4a block to use this tool!"
+      radius: 5
+    trench7:
+      type: 'trench'
+      name: '&4&lTrench Pickaxe'
+      material: 'NETHERITE_PICKAXE'
+      lore:
+        - ""
+        - "&7This &4Trench Pickaxe &7will break blocks"
+        - "&7in a radius and help you build your base!"
+        - ""
+        - "&7Radius: &4%radius%"
+        - ""
+        - "&4&lBREAK &4a block to use this tool!"
+      radius: 7
+    trench9:
+      type: 'trench'
+      name: '&4&lTrench Pickaxe'
+      material: 'NETHERITE_PICKAXE'
+      lore:
+        - ""
+        - "&7This &4Trench Pickaxe &7will break blocks"
+        - "&7in a radius and help you build your base!"
+        - ""
+        - "&7Radius: &4%radius%"
+        - ""
+        - "&4&lBREAK &4a block to use this tool!"
+      radius: 9
+    trench11:
+      type: 'trench'
+      name: '&4&lTrench Pickaxe'
+      material: 'NETHERITE_PICKAXE'
+      lore:
+        - ""
+        - "&7This &4Trench Pickaxe &7will break blocks"
+        - "&7in a radius and help you build your base!"
+        - ""
+        - "&7Radius: &4%radius%"
+        - ""
+        - "&4&lBREAK &4a block to use this tool!"
+      radius: 11
+    tray3:
+      type: 'tray'
+      name: '&4&lTray Pickaxe'
+      material: 'NETHERITE_PICKAXE'
+      lore:
+        - ""
+        - "&7This &4Tray Pickaxe &7will break netherrack"
+        - "&7and help you water the walls of your base!"
+        - ""
+        - "&7Radius: &4%radius%"
+        - ""
+        - "&4&lBREAK &4certain blocks to use this tool!"
+      radius: 3
+    tray5:
+      type: 'tray'
+      name: '&4&lTray Pickaxe'
+      material: 'NETHERITE_PICKAXE'
+      lore:
+        - ""
+        - "&7This &4Tray Pickaxe &7will break netherrack"
+        - "&7and help you water the walls of your base!"
+        - ""
+        - "&7Radius: &4%radius%"
+        - ""
+        - "&4&lBREAK &4certain blocks to use this tool!"
+      radius: 5
+    tray7:
+      type: 'tray'
+      name: '&4&lTray Pickaxe'
+      material: 'NETHERITE_PICKAXE'
+      lore:
+        - ""
+        - "&7This &4Tray Pickaxe &7will break netherrack"
+        - "&7and help you water the walls of your base!"
+        - ""
+        - "&7Radius: &4%radius%"
+        - ""
+        - "&4&lBREAK &4certain blocks to use this tool!"
+      radius: 7
+    tray9:
+      type: 'tray'
+      name: '&4&lTray Pickaxe'
+      material: 'NETHERITE_PICKAXE'
+      lore:
+        - ""
+        - "&7This &4Tray Pickaxe &7will break netherrack"
+        - "&7and help you water the walls of your base!"
+        - ""
+        - "&7Radius: &4%radius%"
+        - ""
+        - "&4&lBREAK &4certain blocks to use this tool!"
+      radius: 9
+    tray11:
+      type: 'tray'
+      name: '&4&lTray Pickaxe'
+      material: 'NETHERITE_PICKAXE'
+      lore:
+        - ""
+        - "&7This &4Tray Pickaxe &7will break netherrack"
+        - "&7and help you water the walls of your base!"
+        - ""
+        - "&7Radius: &4%radius%"
+        - ""
+        - "&4&lBREAK &4certain blocks to use this tool!"
+      radius: 11
